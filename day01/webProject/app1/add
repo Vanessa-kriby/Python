@@ -1,0 +1,50 @@
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2010口腔医学'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2011上戏'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2012口腔医学'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2013上戏'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2014口腔医学'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2015上戏'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2016口腔医学'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2017上戏'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2018口腔医学'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2019上戏'
+curl -G 'http://127.0.0.1:8000/addGrades' --data-urlencode 'cname=2020口腔医学'
+
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=001'  --data-urlencode 'stname=邓紫棋'  --data-urlencode  'stgender=女' -d 'tclassid=1'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=002'  --data-urlencode 'stname=林允儿' --data-urlencode  'stgender=女' -d 'tclassid=2'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=003'  --data-urlencode 'stname=杨幂'  --data-urlencode  'stgender=女' -d 'tclassid=2'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=004'  --data-urlencode 'stname=郭碧婷' --data-urlencode  'stgender=女' -d 'tclassid=3'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=005'  --data-urlencode 'stname=凡妮莎·柯比' --data-urlencode  'stgender=女' -d 'tclassid=4'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=006'  --data-urlencode 'stname=盖儿·加朵'  --data-urlencode  'stgender=女' -d 'tclassid=4'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=007'  --data-urlencode 'stname=艾薇儿'  --data-urlencode  'stgender=女' -d 'tclassid=5'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=008'  --data-urlencode 'stname=李易峰'  --data-urlencode  'stgender=男' -d 'tclassid=6'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=009'  --data-urlencode 'stname=李敏镐'  --data-urlencode  'stgender=男' -d 'tclassid=7'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=011'  --data-urlencode 'stname=刘昊然'  --data-urlencode  'stgender=男' -d 'tclassid=8'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=010'  --data-urlencode 'stname=彭于晏'  --data-urlencode  'stgender=男' -d 'tclassid=9'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=012'  --data-urlencode 'stname=胡歌'  --data-urlencode  'stgender=男' -d 'tclassid=10'
+curl -G 'http://127.0.0.1:8000/addStudents' -d 'stid=013'  --data-urlencode 'stname=霍建华'  --data-urlencode  'stgender=男' -d 'tclassid=11'
+
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=3' --data-urlencode 'cname=C语言'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=4' --data-urlencode 'cname=java'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=5' --data-urlencode 'cname=Oracle数据库'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=6' --data-urlencode 'cname=SQL数据库'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=7' --data-urlencode 'cname=Python'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=8' --data-urlencode 'cname=Vue'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=9' --data-urlencode 'cname=django'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=10' --data-urlencode 'cname=绘画'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=11' --data-urlencode 'cname=数学'
+curl -G 'http://127.0.0.1:8000/addCourses' -d 'cid=12' --data-urlencode 'cname=摄影'
+
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=001&cno=1"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=001&cno=2"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=001&cno=12"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=002&cno=1"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=002&cno=2"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=002&cno=10"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=004&cno=12"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=005&cno=7"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=005&cno=2"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=012&cno=11"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=012&cno=3"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=010&cno=4"
+curl -G 'http://127.0.0.1:8000/selectCourses' -d  "sno=009&cno=6"
